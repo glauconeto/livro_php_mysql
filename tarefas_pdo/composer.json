@@ -1,0 +1,19 @@
+{
+    "name": "neto/tarefas",
+    "description": "Um sistema de tarefas",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Tarefas\\Models\\": "models"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "authors": [
+        {
+            "name": "glauconeto",
+            "email": "neto.glauquinho@gmail.com"
+        }
+    ]
+}
